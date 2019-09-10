@@ -10,7 +10,7 @@ const Numbers = (props) => {
   return (
     <div>
       {
-          numbers.map(number => <NumberButton number={number} key={number} setDisplay={props.setDisplay} />)
+          numbers.map(number => <NumberButton number={number} key={number} setDisplay={props.setDisplay} currentDisplay={props.currentDisplay} />)
       }
     </div>
   );

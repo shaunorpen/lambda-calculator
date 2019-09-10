@@ -15,7 +15,7 @@ function App() {
   // Your functions should accept a parameter of the the item data being displayed to the DOM (ie - should recieve 5 if the user clicks on
   // the "5" button, or the operator if they click one of those buttons) and then call your setter function to update state.
   // Don't forget to pass the functions (and any additional data needed) to the components as props
-  const [display, setDisplay] = useState(0);
+  const [display, setDisplay] = useState('0');
 
   return (
     <div className="container">
@@ -25,7 +25,7 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="leftCol">
           <Specials />
-          <Numbers setDisplay={setDisplay} />
+          <Numbers setDisplay={setDisplay} currentDisplay={display} />
         </div>
         <div className="rightCol">
           <Operators />
