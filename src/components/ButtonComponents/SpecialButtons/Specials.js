@@ -9,7 +9,7 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
 
   return (
-    <div>
+    <div className="special">
       {
         specials.map(special => <SpecialButton value={special} key={special} />)
       }
