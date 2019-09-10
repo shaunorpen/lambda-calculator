@@ -40,6 +40,11 @@ button {
     margin: 10px;
 }
 
+div.leftCol > div:nth-child(2) > button:nth-child(10) {
+    width: 220px;
+    border-radius: 50px;
+}
+
 .App {
     display: flex;
 }
