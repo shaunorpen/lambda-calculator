@@ -1,3 +1,8 @@
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
@@ -5,7 +10,10 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -20,3 +28,18 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+button {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.App {
+    display: flex;
+}
