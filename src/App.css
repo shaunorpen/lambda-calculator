@@ -46,5 +46,5 @@ div.leftCol > div:nth-child(2) > button:nth-child(10) {
 }
 
 .App {
-    display: flex;
+    display: flex; 
 }
